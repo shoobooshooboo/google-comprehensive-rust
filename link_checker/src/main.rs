@@ -1,9 +1,9 @@
 use std::sync::mpsc::{self, Receiver, SyncSender};
-
 use reqwest::Url;
 use reqwest::blocking::Client;
 use scraper::{Html, Selector};
 use thiserror::Error;
+use std::thread;
 
 #[derive(Error, Debug)]
 enum Error {
@@ -53,17 +53,26 @@ fn visit_page(client: &Client, command: &CrawlCommand, sender: &SyncSender<Url>)
 }
 
 fn main() {
-    let (sender, receiver) = mpsc::sync_channel(100);
+    let (inputSender, inputReceiver) = mpsc::sync_channel(100);
+    let (outputSender, outputReceiver) = mpsc::sync_channel(100);
     let client = Client::new();
     let start_url = Url::parse("https://www.google.org").unwrap();
     let crawl_command = CrawlCommand{ url: start_url, extract_links: true };
-    match visit_page(&client, &crawl_command, &sender) {
+    match visit_page(&client, &crawl_command, &inputSender) {
         Ok(links) => println!("Links: {links:#?}"),
         Err(err) => println!("Could not extract links: {err:#}"),
     }
-    drop(sender);
 
-    for url in receiver.iter(){
-        println!("{url:#?}");
+    drop(inputSender);
+    for url in inputReceiver.iter(){
+        let c = client.clone();
+        let s = outputSender.clone();
+        thread::spawn(move || visit_page(&c, &CrawlCommand{url: url, extract_links: true}, &s));
+    }
+
+    drop(outputSender);
+
+    for url in outputReceiver.iter(){
+        println!("{}", url.to_string());
     }
 }

@@ -1,0 +1,12 @@
+C:\Users\johno\Desktop\code\google-comprehensive-rust\link_checker\target\debug\deps\libtinystr-cfc3462ef98c00b2.rmeta: C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\lib.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\macros.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ascii.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\asciibyte.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\error.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\int_ops.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\unvalidated.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ule.rs
+
+C:\Users\johno\Desktop\code\google-comprehensive-rust\link_checker\target\debug\deps\tinystr-cfc3462ef98c00b2.d: C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\lib.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\macros.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ascii.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\asciibyte.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\error.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\int_ops.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\unvalidated.rs C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ule.rs
+
+C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\lib.rs:
+C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\macros.rs:
+C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ascii.rs:
+C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\asciibyte.rs:
+C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\error.rs:
+C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\int_ops.rs:
+C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\unvalidated.rs:
+C:\Users\johno\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\tinystr-0.8.1\src\ule.rs:
